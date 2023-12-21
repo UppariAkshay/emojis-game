@@ -1,0 +1,18 @@
+/* Write your code here. */
+.emojiBtn {
+  background: transparent;
+  border: 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff33;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  padding: 25px;
+  width: 190px;
+}
+.emojiItem {
+  margin-bottom: 9px;
+  margin-right: 9px;
+}

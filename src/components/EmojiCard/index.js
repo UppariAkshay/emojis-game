@@ -7,13 +7,12 @@ const EmojiCard = props => {
 
   const clickEmoji = () => {
     emojiClicked(id)
-    console.log('clicked')
   }
 
   return (
     <li className="emojiItem">
       <button type="button" className="emojiBtn" onClick={clickEmoji}>
-        <img src={emojiUrl} />
+        <img alt="emoji logo" src={emojiUrl} />
       </button>
     </li>
   )
